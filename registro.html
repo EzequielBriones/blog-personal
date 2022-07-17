@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <title>Blog Personal</title>
+  </head>
+  <body>
+    <section class="container">
+      <nav class="element1">
+        <div class="elCont">
+          <a href="index.html"><img class="header-img" src="img/jhon.jpg" alt="foto de perfil" /></a>
+          <div class="name-box">
+            <h2>Ezequiel Briones</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, autem?</p>
+          </div>
+          <ul>
+            <li><a href="#">Biografia</a></li>
+            <li><a href="#">Trabajos</a></li>
+            <li><a href="#">Posteos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <span>2022 - Eze</span>
+      </nav>
+      <!-- log in
+            log out-->
+      <header class="element2">
+        <a href="registro.html">Registrarse</a>
+        <a href="#">Ingresar</a>
+      </header>
+      <!-- Posteo principal -->
+
+      <div class="element element3">
+        <h3>Registro de Usuario</h3>
+        <div class="form">
+          <div class="form-input">
+            <label for="name">Nombre *</label>
+            <input type="text" name="name" />
+          </div>
+          <div class="form-input">
+            <label for="surname">Apellido *</label>
+            <input type="text" name="surname" />
+          </div>
+        </div>
+        <div class="form-input country">
+          <label for="pais">Pais</label>
+          <select name="pais" id="pais">
+            <option value="Argentina">Argentina</option>
+          </select>
+        </div>
+        <div class="form-input">
+          <label for="email">Email *</label>
+          <input type="email" name="email" />
+        </div>
+        <div class="form">
+          <div class="form-input">
+            <label for="name">Clave *</label>
+            <input type="password" name="name" />
+          </div>
+          <div class="form-input">
+            <label for="surname">Repetir la clave *</label>
+            <input type="password" name="surname" />
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" name="terminos" />
+          <label for="terminos">Acepto los <a href="$">terminos y condiciones</a></label>
+        </div>
+        <span class="captcha">
+          <input type="checkbox" name="captcha" />
+          <label for="captcha">No soy un robot</label>
+          <img src="img/captcha.png" alt="captcha" />
+        </span>
+        <button class="form-btn" type="submit">Registrar</button>
+      </div>
+      <!-- Categorias -->
+      <aside class="element4">
+        <div class="categorias">
+          <h3>Categorias</h3>
+          <ul>
+            <li><a href="#">Reflexiones</a></li>
+            <li><a href="#">Experiencias</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+        </div>
+        <div class="noticias">
+          <span>Suscribirse a noticias</span>
+          <input type="email" name="email" placeholder="cuenta@gmail.com" />
+          <button>Suscribirse</button>
+        </div>
+        <article>
+          <img src="img/Screenshot_2.png" alt="ad" class="img-ad" />
+        </article>
+      </aside>
+    </section>
+  </body>
+</html>
